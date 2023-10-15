@@ -3,7 +3,6 @@
     <div class="container my-5 md:my-0 w-full flex flex-col md:flex-row gap-5 md:gap-5 justify-between items-center">
       <div class="flex flex-col md:py-14 items-center">
         <nuxt-img
-          class=""
           src="https://res.cloudinary.com/dbt4olgrj/image/upload/v1687329346/Cycled/cycledlogo_dlp1mh.png"
           alt="image"
           width="200"
@@ -31,6 +30,7 @@
         >
         </lord-icon>
       </div>
+
       <nav class="social-nav flex gap-5">
         <nuxt-img
           v-for="nav in socialNav"

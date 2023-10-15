@@ -3,16 +3,26 @@
     class="w-full z-10 transition-all duration-300"
     :class="scrollPosition > 0 ? 'fixed bg-white drop-shadow-lg' : ''"
   >
-    <div class="flex justify-between items-center py-5 mx-20 transition-all duration-300 transition-height">
-      <nuxt-img
-        class=""
-        :class="scrollPosition > 70 ? 'w-60 enlarge' : 'descale'"
-        src="https://res.cloudinary.com/dbt4olgrj/image/upload/v1687329346/Cycled/cycledlogo_dlp1mh.png"
-        alt="image"
-        width="200"
-        height="40"
-      />
-    </div>
+    <a href="/">
+      <div class="flex items-center gap-5 py-5 mx-20 transition-all duration-300 transition-height">
+        <nuxt-img
+          class=""
+          :class="scrollPosition > 70 ? 'w-60 enlarge' : 'descale'"
+          src="https://res.cloudinary.com/dbt4olgrj/image/upload/v1689433369/Cycled/cycledlogo_tvrqqh.png"
+          alt="image"
+          width="200"
+          height="40"
+        />
+        <nuxt-img
+          class="hover:rotate-180 transition-all duration-300"
+          :class="scrollPosition > 70 ? 'w-[50px] enlarge' : 'descale'"
+          src="https://res.cloudinary.com/dbt4olgrj/image/upload/v1689433369/Cycled/cycled_arrow_g0fotg.png"
+          alt="image"
+          width="45"
+          height="40"
+        />
+      </div>
+    </a>
   </div>
 </template>
 
