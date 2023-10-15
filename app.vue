@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: "Elad Ayal || Full Stack Developer",
+  title: "Cycled",
 });
 </script>
 
