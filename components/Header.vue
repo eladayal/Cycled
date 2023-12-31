@@ -1,6 +1,6 @@
 <template>
   <div
-    class="w-full z-10 transition-all duration-300"
+    class="w-full flex items-center justify-center z-10 transition-all duration-300"
     :class="scrollPosition > 0 ? 'fixed bg-white drop-shadow-lg' : ''"
   >
     <a href="/">
@@ -39,11 +39,11 @@ if (process.client) {
 
 <style scoped>
 .enlarge {
-  @apply transform scale-110; /* Increase the image size by 25% */
+  @apply transform scale-105; /* Increase the image size by 25% */
   @apply transition-all duration-300; /* Add transition effect */
 }
 .descale {
-  @apply transform scale-110; /* Increase the image size by 25% */
+  @apply transform scale-105; /* Increase the image size by 25% */
   @apply transition-all duration-300; /* Add transition effect */
 }
 </style>

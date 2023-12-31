@@ -4,6 +4,7 @@
       <div class="flex flex-col md:py-14 items-center">
         <nuxt-img
           src="https://res.cloudinary.com/dbt4olgrj/image/upload/v1687329346/Cycled/cycledlogo_dlp1mh.png"
+          class="self-baseline"
           alt="image"
           width="200"
           height="auto"
