@@ -4,7 +4,7 @@
     :class="scrollPosition > 0 ? 'fixed bg-white drop-shadow-lg' : ''"
   >
     <a href="/">
-      <div class="flex items-center gap-5 py-5 mx-20 transition-all duration-300 transition-height">
+      <div class="flex items-center gap-2 md:gap-5 py-5 mx-20 transition-all duration-300 transition-height">
         <nuxt-img
           class=""
           :class="scrollPosition > 70 ? 'w-60 enlarge' : 'descale'"

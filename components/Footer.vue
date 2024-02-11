@@ -1,14 +1,10 @@
 <template>
   <div>
-    <div class="container my-5 md:my-0 w-full flex flex-col md:flex-row gap-5 md:gap-5 justify-between items-center">
-      <div class="flex flex-col md:py-14 items-center">
-        <nuxt-img
-          src="https://res.cloudinary.com/dbt4olgrj/image/upload/v1687329346/Cycled/cycledlogo_dlp1mh.png"
-          class="self-baseline"
-          alt="image"
-          width="200"
-          height="auto"
-        />
+    <div
+      class="container my-5 md:my-0 w-full flex flex-col md:flex-row gap-5 md:gap-5 justify-between items-center md:py-14"
+    >
+      <div class="flex flex-col items-center">
+        <nuxt-img src="/images/cycledlogo.png" class="self-baseline" alt="image" width="200" height="auto" />
         <div class="my-5 text-2xl font-medium font-primary">
           Turn your <span class="emphasis font-semibold">trash</span>, into
           <span class="emphasis font-semibold">Cash</span>
@@ -23,13 +19,6 @@
             </nuxt-link>
           </div>
         </div>
-        <lord-icon
-          src="https://cdn.lordicon.com/fsihxwoq.json"
-          trigger="hover"
-          colors="primary:#f58543,secondary:#121331"
-          style="width: 70px; height: 70px"
-        >
-        </lord-icon>
       </div>
 
       <nav class="social-nav flex gap-5">
